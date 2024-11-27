@@ -1,0 +1,16 @@
+# Decir que escriba tres números enteros.
+
+num1 = float(input("Escribe un número: "))
+num2 = float(input("Escribe otro número: "))
+num3 = float(input("Escribe otro número: "))
+
+# Poner cual de los tres números es el mayor..
+
+if num1 >= num2 and num1 >= num3:
+    print(f"El número mas alto es: {num1}") # Indicar cuando el mayor sea el numero 1.
+elif num2 >= num1 and num2 >= num3:
+    print(f"El número mas alto es: {num2}") # Indicar cuando el mayor sea el numero 2.
+else:
+    print(f"El número mas alto es: {num3}") # Indicar cuando el mayor sea el numero 3.
+
+
