@@ -1,0 +1,14 @@
+# Decir que escriba la calificación.
+
+calif = float(input("Escribe la calificación: "))
+
+# Poner si aprobo o desaprobo.
+
+if calif >= 7:
+    print("El estudiante aprobo") # Indicar si aprobo.
+else:
+    print("El estudiante desaprobo") # Indicar si desaprobo.
+
+
+
+
