@@ -1,0 +1,14 @@
+# Decir que escriba el valor de la compra.ç
+
+valor_compra = float(input("Escribe el valor de la compra:" ))
+
+# Revisar si el valor es mas de 100.
+
+if valor_compra > 100:
+    desc = valor_compra * 0.20  # Aplicamos el descuento del 20%.
+    valor_total = valor_compra - desc  # Al valor total le aplicamos el descuento.
+    print(f"El valor aplicando el descuento da un total de: {valor_total:.2f} dólares.")
+else:
+    print(f"El valor total es de: {valor_compra:.2f} dólares.")
+
+
