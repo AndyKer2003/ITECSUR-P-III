@@ -1,0 +1,13 @@
+# Decir que escriba un número entero.
+
+num = int(input("Escribe un número: "))
+
+# Poner si el número es positivo, negativo o cero.
+
+if num > 0:
+    print(f"El número" , num , "es positivo.") # Indicar si el número es mayor que 0.
+
+elif num < 0: 
+    print(f"El número" , num , "es negativo.") # Indicar si el número es menor que 0.
+else:
+    print(f"El número" , num , "es igual a 0.") # Indicar si el número el igual a 0.
