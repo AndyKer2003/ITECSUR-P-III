@@ -1,0 +1,14 @@
+# Decir que escriba la edad que tiene.
+
+edad = int(input("Escriba su edad: "))
+
+# Poner por orden la edad que escribio.
+
+if edad >= 0 and edad <= 12:
+    print(f"Según tu edad eres un niño.") # Indicar que es un niño.
+elif edad >= 13 and edad <= 17:
+    print(f"Según tu edad eres un adolecente.") # Indicar que es un adolecente.
+else:
+    print(f"Según tu edad eres un adulto.") # Indicar que es un adulto.
+
+
