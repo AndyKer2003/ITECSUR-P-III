@@ -1,0 +1,10 @@
+# Decir que escriba un número entero.
+
+num = int(input("Escribe un número: "))
+
+# Poner si el número escrito es par o impar.
+
+if num%2==0:
+    print(f"El número" , num, "es par.") # Indicar si el número es par.
+else:
+    print(f"El número" , num, "es impar.") # Indicar si el número es impar.
