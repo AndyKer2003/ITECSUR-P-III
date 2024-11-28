@@ -1,0 +1,15 @@
+# Para obtener números aleatorios se necesita el modulo random.
+
+import random  
+
+# Obtener entre el 1 y 10 un número aleatorio.
+
+num_aleatorio = random.randint(1, 10)
+
+# Pedir que adivine el número.
+adivina = int(input("Entre el 1 y 10 debes adivinar un número: "))
+
+if adivina == num_aleatorio: # Revisar si el número escrito es acertado.
+    print("Acertaste el número.")
+else:
+    print(f"Intenta de nuevo.") 
