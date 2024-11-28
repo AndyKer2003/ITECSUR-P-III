@@ -1,0 +1,6 @@
+print("Números pares del 1 al 20:\n") # Imprimir.
+
+# # Utilizar el buble para generar los números 1 al 20.
+for n in range(1, 21): # El rango se queda con el número final.
+    if n % 2 == 0:  # Revisamos si el número es par.
+        print(n) # Mostramos los numeros pares.

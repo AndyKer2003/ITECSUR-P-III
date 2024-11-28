@@ -1,0 +1,32 @@
+# Poner el usuario y contraseña definidos.
+
+usuario_valido= "Alexa123"
+contraseña_valida = "2003"
+
+#Poner le número de intentos pemitidos.
+
+intentos_permitidos = 3
+
+# Poner un bucle para poder realizar los intentos permitidos.
+
+while intentos_permitidos > 0:
+
+        usuario = input("Escribe el usuario:") # Pedir que escriba el usuario.
+        contraseña = input("Escribe la contraseña:") # Pedir qu escriba la contraseña.
+
+# Revisar si el usuario y contraseña son correctos.
+
+        if usuario == usuario_valido and contraseña_valida:
+            print("Acceso correcto.")
+            break # Salir del bucle si el usuario y contraseña son correctos.
+        else:
+             intentos_permitidos -= 1 # Quitar un intento con cada equivocación.
+             if intentos_permitidos > 0:
+                  print(f"Intenta nuevamente {intentos_permitidos}.") # Pedir que intente otra vez.
+             else:
+                  print("Se te acabaron los intentos.") # Indicar que se acabaron los intentos.
+
+
+
+
+

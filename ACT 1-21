@@ -1,0 +1,18 @@
+# Pedir que escriba un número entero.
+
+num = int(input("Escribe un número para poder calcular su factorial: "))
+
+# Comenzar la variable factorial con 1.
+
+fact = 1
+
+# Revisamos si el número es negativo.
+
+if num < 0:
+    print("El factorial no es para números negativos.")
+else:
+    for n in range(1, num + 1): # Ocupamos el bucle para calcular el factorial.
+
+        fact *= n  # Multiplicamos factorial por cada número desde 1 hasta el número ingresado
+
+    print(f"El factorial de {num} es: {fact}") # Mostrar el factorial del número escrito.

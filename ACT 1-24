@@ -1,0 +1,15 @@
+# Pedir que escriba un número.
+
+num = int(input("Escribe un número: "))
+
+# Para poder invertirlo debemos convertir el número a una cadena.
+
+num_inver = str(abs(num))[::-1]
+
+if num < 0:
+    numero_inver = '-' + num_inver # Si el número es negativo poner el signo -.
+
+
+# Mostrar invertido el número que se escribio.
+
+print(f"El número invertido es: {num_inver}")

@@ -1,0 +1,22 @@
+# Pedir que escriba una calificación mediante un número.
+
+calif = float(input("Escribir la calificación en rago de 0-100: "))
+
+# Verificar la calificación escrita y poner la letra que corresponda.
+
+if 90 <= calif <= 100: # Calificación A en rango de 90-100.
+    letra = "A"
+elif 80 <= calif <= 89: # Calificación B en rango de 80-89.
+    letra = "B"
+elif 70 <= calif <= 79: # Calificación C en rango de 70-79.
+    letra = "C"
+elif 60 <= calif <= 69: # Calificación D en rango de 60-69.
+    letra = "D"
+elif calif < 60: # Calificación F en rango de 0-60.
+    letra = "F"
+else:
+    letra = "Escribe un número dentro el rango."  # Pedir un número dentro del rango.
+
+# Mostrar la letra segun la calificación.
+
+print(f"Su calificación es: {letra}")

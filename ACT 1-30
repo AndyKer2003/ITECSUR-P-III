@@ -1,0 +1,19 @@
+# Importar el módulo math para obtener el valor de π.
+
+import math  
+
+# Poner la función que recibe el radio de un círculo y nos devuelve su área.
+def cal_area_cir(radio):
+    return math.pi * radio ** 2  # Ponemos la fórmula del área del círculo.
+
+# Pedir que escriba el radio del círculo.
+
+radio_ingresado = float(input("Escribe el radio del círculo: "))
+
+# Traer a la función para mostrar el resultado.
+
+area = cal_area_cir(radio_ingresado)
+
+# Indicar el resultado con el area del circulo solicitado.
+
+print(f"El área del círculo radio {radio_ingresado} es: {area:.2f}")

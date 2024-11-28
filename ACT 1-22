@@ -1,0 +1,17 @@
+# Función para saber si un número es primo.
+
+print("Numeros primos del 1 al 50:\n")
+
+def num_primo(num):
+    if num <= 1:
+        return False  # No son primos los números menores o iguales a 1.
+    for i in range(2, int(num ** 0.5) + 1):  # Necesitamos comprobar hasta la raíz cuadrada de num.
+        if num % i == 0:
+            return False  # Si el número escrito es divisible entre 2 y su raíz cuadrada sabemos que no es primo.
+    return True  # Si no se encuentra ningún divisor para el número es primo.
+
+# Mostrar todos los números primos entre 1 al 50.
+
+for num in range(1, 51):
+    if num_primo(num):
+        print(num)

@@ -1,0 +1,15 @@
+# Poner la función para que reciba el número y devuelva su cuadrado.
+
+def cal_cuadrado(num):
+    return num ** 2  # El cuadrado de un número se obtiene elevando a la potencia 2. 
+
+# Pedir que escriba un númro.
+
+num_persona = float(input("Escribe un número: "))
+
+# Pedir a la función para ver ele resultado.
+resul = cal_cuadrado(num_persona)
+
+# Nos va a mostrar el resultado.
+
+print(f"Cuadrado de {num_persona} = {resul}")

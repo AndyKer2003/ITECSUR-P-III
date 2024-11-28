@@ -1,0 +1,13 @@
+# Poner la función que recibe el nombre y devuelve el saludo.
+
+def saludo(nombre):
+    return f"Hello {nombre}."
+
+# Pedir que escriba su nombre.
+
+nombre_persona = input("Por favor escribe tu nombre: ")
+
+# Recibir la función para mostrar el saludo.
+
+saludo = saludo(nombre_persona)
+print(saludo)

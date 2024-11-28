@@ -1,0 +1,31 @@
+# Ponemos las variables.
+suma_calif = 0
+num_calif = 0
+
+# Pedir que escriba las calificaciones hasta que ingrese -1.
+
+while True:
+    calif = float(input("Escribe una calificación, para ver el promedio ingresa -1: ")) # Pedir que escriba una calificación.
+    
+    # Cuando escriba -1 se termina el bucle.
+
+    if calif == -1:
+        break
+    
+    # Poner la calificación a la suma total.
+
+    suma_calif += calif
+
+    # Aumentar cada vez mas calificaciones.
+    num_calif += 1
+
+# Ver si se estan escribiendo calificaciones para no dividir por 0.
+
+if num_calif > 0:
+
+    # Calcular el promedio de las calificaciones.
+
+    promedio = suma_calif / num_calif
+    print(f"El promedio es: {promedio}")
+else:
+    print("Ingresa calificaciones.")

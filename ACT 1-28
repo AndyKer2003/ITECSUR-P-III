@@ -1,0 +1,23 @@
+# Poner la función que recibe el número y revisa si es par o impar.
+
+def num_par(num):
+    if num % 2 == 0:  # Si el número es divisible para dos es par.
+        return True
+    else:
+        return False  # Si el número no es divisible para dos es par.
+
+# Pedir que escriba un número.
+
+num_persona = int(input("Escribe un número: "))
+
+# Utilizar la función para ver el resultado.
+
+resul = num_par(num_persona)
+
+# Mostrar si el número escrito es par o impar.
+
+if resul:
+    print(f"{num_persona} TRUE.")
+else:
+    print(f"{num_persona} IMPAR.")
+

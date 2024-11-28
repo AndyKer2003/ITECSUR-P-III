@@ -1,0 +1,13 @@
+# Utilizamos una variable para el resultado de la suma.
+
+suma = 0
+
+# Utilizar el buble para sumar los números del 1 al 10.
+
+for n in range(1, 11):
+    suma += n  # Sumar el valor de n a la variable suma.
+
+
+# Mostrar el resultado de la suma del 1 al 10.
+
+print("La suma de los primeros 10 números es:", suma)

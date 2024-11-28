@@ -1,0 +1,16 @@
+# Pedir que escriba un número.
+
+num = int(input("Escribe un número: "))
+
+# Comenzamos la variable suma en 0.
+
+suma = 0
+
+# Ponemos whilw para sumar los números.
+
+while num > 0:
+    numero = num % 10  # Sacamos el último digito del número.
+    suma += numero  # Sumamos el número a la variable suma.
+    num = num // 10  # Quitamos el último dígito del número
+
+print(f"La suma de los dígitos es: {suma}")
