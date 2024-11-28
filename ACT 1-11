@@ -1,0 +1,12 @@
+# Escribir la contraseña fija.
+
+contra_fija = "12345"
+
+# Pedir que escriba la contraseña.
+
+contra_usua = input("Escribe la contraseña: ")
+
+if contra_usua == contra_fija: # Verificar si la contraseña escrita es valida.
+    print("La contraseña es correcta.") # Verfificar si la contraseña escrita es igual a la contraseña fija.
+else:
+    print("La contraseña no es correcta.") # Decir si la contraseña no es correcta.
