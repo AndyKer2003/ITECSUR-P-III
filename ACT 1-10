@@ -1,0 +1,11 @@
+# Pedir que escriba una año.
+
+año = int(input("Escribe un año para saber si es bisiesto: "))
+
+# Revisar si el año escrito es bisiesto.
+
+if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
+    print(f"El año {año} es bisiesto.") # Mostrar si el año es bisiesto.
+else:
+    print(f"El año {año} no es bisiesto.") # Mostrar si el año no es bisiesto.
+
